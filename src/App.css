@@ -1,0 +1,232 @@
+.header-color {
+  background: #de6161; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #2657eb,
+    #de6161
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #2657eb,
+    #de6161
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.landing-color {
+  background: #de6161; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #2657eb,
+    #de6161
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #2657eb,
+    #de6161
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: fixed;
+  top: 1;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.avatar-img {
+  margin-left: 30px;
+  top: 50%;
+  right: 50%;
+  height: 250px;
+  padding-top: 10px;
+}
+.navbar-brand {
+  color: white !important;
+}
+.banner-text {
+  background-color: black;
+  opacity: 0.8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+  text-align: center;
+}
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  width: 50%;
+  margin: auto;
+  padding-bottom: auto;
+}
+.card-deck-width {
+  margin: 10px auto;
+  width: 80%;
+}
+.card-text-btn {
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  box-shadow: 2px 2px rgba(104, 104, 104, 0.2);
+}
+.category-tabs {
+  margin: 10px auto;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #7f5ca8 !important;
+}
+.container-projects {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.container-contact {
+  justify-content: center;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 30px;
+  border: 1px solid #7f5ca8;
+  border-radius: 20px;
+  padding: 0 30px;
+}
+.container-contact h1 {
+  margin-top: 20px;
+  font-size: 30px;
+  margin-left: 25px;
+}
+.container-contact .avatar-img {
+  border-radius: 25px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.container-contact p {
+  width: 80%;
+  margin: 5px auto;
+  margin-bottom: 20px;
+}
+.container-contact .dotted {
+  margin: 20px auto;
+  border-bottom: 4px dotted rgb(0, 0, 0);
+}
+.grid-sm {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px 20px 0 0;
+  font-size: 15px;
+}
+.container-resume {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  width: 80%;
+  margin: 20px auto;
+}
+.container-resume h2 {
+  font-weight: bold;
+}
+.container-resume h3 {
+  font-size: 25px;
+}
+.resume-skills {
+  margin-bottom: 20px;
+}
+.badge {
+  font-size: 15px;
+  margin: 5px;
+}
+.resume-work {
+  margin-right: 40px;
+}
+.resume-period {
+  color: rgb(102, 102, 102);
+  font-size: 13px;
+}
+.text-contact {
+  font-size: 20px;
+}
+@media (max-width: 800px) {
+  .container-resume {
+    width: 95%;
+    margin: 20px auto;
+  }
+}
+@media (max-width: 600px) {
+  .avatar-img {
+    margin-left: 0;
+  }
+  .banner-text h1 {
+    font-size: 44px;
+  }
+  .social-media {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+  }
+  .container-resume {
+    display: inline-block;
+  }
+  .container-contact .avatar-img {
+    max-width: 200px;
+    height: auto;
+  }
+}
+@media (max-width: 400px) {
+  .social-media {
+    display: block;
+  }
+  .container-contact .avatar-img {
+    max-width: 120px;
+    height: auto;
+  }
+  .text-contact {
+    display: block;
+    font-size: 15px;
+    text-align: left;
+    left: -20px;
+  }
+  .facebook {
+    color: transparent;
+  }
+  .grid-sm {
+    display: block;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
+}
+.card-text-btn a {
+  text-decoration: none;
+  color: white;
+}
+.progress {
+  margin: 10px;
+  font-size: 16px;
+}
+.card-text {
+  height: 80px;
+}
+.card-img-top {
+  border-bottom: 1px solid rgb(139, 139, 139);
+  max-height: 200px;
+}
